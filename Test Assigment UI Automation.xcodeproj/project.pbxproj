@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */; };
+		E25E0B922623E57500CEE3CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B912623E57500CEE3CB /* SceneDelegate.swift */; };
+		E25E0B942623E57500CEE3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B932623E57500CEE3CB /* ViewController.swift */; };
+		E25E0B972623E57500CEE3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B952623E57500CEE3CB /* Main.storyboard */; };
+		E25E0B992623E57600CEE3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B982623E57600CEE3CB /* Assets.xcassets */; };
+		E25E0B9C2623E57600CEE3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */; };
+		E25E0BA72623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0BA62623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift */; };
+		E25E0BB22623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25E0BA32623E57600CEE3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25E0B842623E57500CEE3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25E0B8B2623E57500CEE3CB;
+			remoteInfo = "Test Assigment UI Automation";
+		};
+		E25E0BAE2623E57600CEE3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25E0B842623E57500CEE3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25E0B8B2623E57500CEE3CB;
+			remoteInfo = "Test Assigment UI Automation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Assigment UI Automation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E25E0B912623E57500CEE3CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E25E0B932623E57500CEE3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E25E0B962623E57500CEE3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25E0B982623E57600CEE3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25E0B9B2623E57600CEE3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E25E0B9D2623E57600CEE3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25E0BA22623E57600CEE3CB /* Test Assigment UI AutomationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Assigment UI AutomationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E0BA62623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Assigment_UI_AutomationTests.swift; sourceTree = "<group>"; };
+		E25E0BA82623E57600CEE3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25E0BAD2623E57600CEE3CB /* Test Assigment UI AutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Assigment UI AutomationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Assigment_UI_AutomationUITests.swift; sourceTree = "<group>"; };
+		E25E0BB32623E57600CEE3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25E0B892623E57500CEE3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0B9F2623E57600CEE3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0BAA2623E57600CEE3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25E0B832623E57500CEE3CB = {
+			isa = PBXGroup;
+			children = (
+				E25E0B8E2623E57500CEE3CB /* Test Assigment UI Automation */,
+				E25E0BA52623E57600CEE3CB /* Test Assigment UI AutomationTests */,
+				E25E0BB02623E57600CEE3CB /* Test Assigment UI AutomationUITests */,
+				E25E0B8D2623E57500CEE3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25E0B8D2623E57500CEE3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */,
+				E25E0BA22623E57600CEE3CB /* Test Assigment UI AutomationTests.xctest */,
+				E25E0BAD2623E57600CEE3CB /* Test Assigment UI AutomationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25E0B8E2623E57500CEE3CB /* Test Assigment UI Automation */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */,
+				E25E0B912623E57500CEE3CB /* SceneDelegate.swift */,
+				E25E0B932623E57500CEE3CB /* ViewController.swift */,
+				E25E0B952623E57500CEE3CB /* Main.storyboard */,
+				E25E0B982623E57600CEE3CB /* Assets.xcassets */,
+				E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */,
+				E25E0B9D2623E57600CEE3CB /* Info.plist */,
+			);
+			path = "Test Assigment UI Automation";
+			sourceTree = "<group>";
+		};
+		E25E0BA52623E57600CEE3CB /* Test Assigment UI AutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0BA62623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift */,
+				E25E0BA82623E57600CEE3CB /* Info.plist */,
+			);
+			path = "Test Assigment UI AutomationTests";
+			sourceTree = "<group>";
+		};
+		E25E0BB02623E57600CEE3CB /* Test Assigment UI AutomationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */,
+				E25E0BB32623E57600CEE3CB /* Info.plist */,
+			);
+			path = "Test Assigment UI AutomationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25E0B8B2623E57500CEE3CB /* Test Assigment UI Automation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25E0BB62623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI Automation" */;
+			buildPhases = (
+				E25E0B882623E57500CEE3CB /* Sources */,
+				E25E0B892623E57500CEE3CB /* Frameworks */,
+				E25E0B8A2623E57500CEE3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Assigment UI Automation";
+			productName = "Test Assigment UI Automation";
+			productReference = E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25E0BA12623E57600CEE3CB /* Test Assigment UI AutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25E0BB92623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI AutomationTests" */;
+			buildPhases = (
+				E25E0B9E2623E57600CEE3CB /* Sources */,
+				E25E0B9F2623E57600CEE3CB /* Frameworks */,
+				E25E0BA02623E57600CEE3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25E0BA42623E57600CEE3CB /* PBXTargetDependency */,
+			);
+			name = "Test Assigment UI AutomationTests";
+			productName = "Test Assigment UI AutomationTests";
+			productReference = E25E0BA22623E57600CEE3CB /* Test Assigment UI AutomationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E25E0BAC2623E57600CEE3CB /* Test Assigment UI AutomationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25E0BBC2623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI AutomationUITests" */;
+			buildPhases = (
+				E25E0BA92623E57600CEE3CB /* Sources */,
+				E25E0BAA2623E57600CEE3CB /* Frameworks */,
+				E25E0BAB2623E57600CEE3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25E0BAF2623E57600CEE3CB /* PBXTargetDependency */,
+			);
+			name = "Test Assigment UI AutomationUITests";
+			productName = "Test Assigment UI AutomationUITests";
+			productReference = E25E0BAD2623E57600CEE3CB /* Test Assigment UI AutomationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25E0B842623E57500CEE3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E25E0B8B2623E57500CEE3CB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E25E0BA12623E57600CEE3CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E25E0B8B2623E57500CEE3CB;
+					};
+					E25E0BAC2623E57600CEE3CB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E25E0B8B2623E57500CEE3CB;
+					};
+				};
+			};
+			buildConfigurationList = E25E0B872623E57500CEE3CB /* Build configuration list for PBXProject "Test Assigment UI Automation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25E0B832623E57500CEE3CB;
+			productRefGroup = E25E0B8D2623E57500CEE3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25E0B8B2623E57500CEE3CB /* Test Assigment UI Automation */,
+				E25E0BA12623E57600CEE3CB /* Test Assigment UI AutomationTests */,
+				E25E0BAC2623E57600CEE3CB /* Test Assigment UI AutomationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25E0B8A2623E57500CEE3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E0B9C2623E57600CEE3CB /* LaunchScreen.storyboard in Resources */,
+				E25E0B992623E57600CEE3CB /* Assets.xcassets in Resources */,
+				E25E0B972623E57500CEE3CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0BA02623E57600CEE3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0BAB2623E57600CEE3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25E0B882623E57500CEE3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E0B942623E57500CEE3CB /* ViewController.swift in Sources */,
+				E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */,
+				E25E0B922623E57500CEE3CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0B9E2623E57600CEE3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E0BA72623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25E0BA92623E57600CEE3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E0BB22623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25E0BA42623E57600CEE3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25E0B8B2623E57500CEE3CB /* Test Assigment UI Automation */;
+			targetProxy = E25E0BA32623E57600CEE3CB /* PBXContainerItemProxy */;
+		};
+		E25E0BAF2623E57600CEE3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25E0B8B2623E57500CEE3CB /* Test Assigment UI Automation */;
+			targetProxy = E25E0BAE2623E57600CEE3CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E25E0B952623E57500CEE3CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25E0B962623E57500CEE3CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25E0B9B2623E57600CEE3CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25E0BB42623E57600CEE3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E25E0BB52623E57600CEE3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25E0BB72623E57600CEE3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI Automation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25E0BB82623E57600CEE3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI Automation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25E0BBA2623E57600CEE3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI AutomationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Assigment UI Automation.app/Test Assigment UI Automation";
+			};
+			name = Debug;
+		};
+		E25E0BBB2623E57600CEE3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI AutomationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Assigment UI Automation.app/Test Assigment UI Automation";
+			};
+			name = Release;
+		};
+		E25E0BBD2623E57600CEE3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI AutomationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Assigment UI Automation";
+			};
+			name = Debug;
+		};
+		E25E0BBE2623E57600CEE3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test Assigment UI AutomationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandlab.Test-Assigment-UI-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Assigment UI Automation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25E0B872623E57500CEE3CB /* Build configuration list for PBXProject "Test Assigment UI Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E0BB42623E57600CEE3CB /* Debug */,
+				E25E0BB52623E57600CEE3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E0BB62623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E0BB72623E57600CEE3CB /* Debug */,
+				E25E0BB82623E57600CEE3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E0BB92623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI AutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E0BBA2623E57600CEE3CB /* Debug */,
+				E25E0BBB2623E57600CEE3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E0BBC2623E57600CEE3CB /* Build configuration list for PBXNativeTarget "Test Assigment UI AutomationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E0BBD2623E57600CEE3CB /* Debug */,
+				E25E0BBE2623E57600CEE3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25E0B842623E57500CEE3CB /* Project object */;
+}
