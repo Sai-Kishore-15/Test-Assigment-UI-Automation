@@ -21,9 +21,12 @@ final class FirstViewController: UIViewController {
         super.viewDidLoad()
 
         title = Titles.firstViewControllerTitle
+        self.navigationController?.navigationBar.accessibilityIdentifier =
+            AccessibilityIdentifiers.navBarFirstViewController
 
         // register all UICollectionViewCell classes in our UICollectionView
         collectionView.register(BLCollectionViewCell.self, forCellWithReuseIdentifier: BLCollectionViewCell.reuseIdentifierDefault)
+        collectionView.accessibilityIdentifier = AccessibilityIdentifiers.collectionView
 
         // simulate data loading from the server
         loadDataFromServer()

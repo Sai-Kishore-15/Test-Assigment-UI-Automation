@@ -31,6 +31,9 @@ class MockServer {
     func generateRandomData(ofSize size: Int) -> [Item] {
         var items = [Item]()
         let totalNumberOfItems = size as Int
+        // Exit Condition
+        if totalNumberOfItems <= 0 { return items }
+
         let redCellIndex = Int.random(in: 0..<totalNumberOfItems)
         for index in 0..<totalNumberOfItems {
             let item: Item

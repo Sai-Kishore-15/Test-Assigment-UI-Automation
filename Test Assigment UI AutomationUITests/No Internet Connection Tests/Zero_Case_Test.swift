@@ -7,7 +7,7 @@
 
 import XCTest
 
-class ZeroCaseTest: XCTestCase {
+class Zero_Case_Test: XCTestCase {
 
     override func setUpWithError() throws {
         // In UI tests it is usually best to stop immediately when a failure occurs.

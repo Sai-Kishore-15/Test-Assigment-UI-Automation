@@ -8,17 +8,21 @@
 import Foundation
 
 enum Titles {
-    static var firstViewControllerTitle = "Green and Red cells list"
-    static var no                       = "No"
-    static var yes                      = "Yes"
+    static let firstViewControllerTitle = "Green and Red cells list"
+    static let no                       = "No"
+    static let yes                      = "Yes"
 }
 
 enum AlertMessages {
-    static var nextScreen = "Do you want to open the next screen?"
+    static let nextScreen = "Do you want to open the next screen?"
 }
 
 enum SegueIdentifiers {
-    static var firstToSecondViewController = "second-view-controller"
+    static let firstToSecondViewController = "second-view-controller"
 }
 
+enum AccessibilityIdentifiers {
+    static let collectionView = "green-red-collection-view"
+    static let navBarFirstViewController = "navigation-bar-first-view-controller"
+}
 
