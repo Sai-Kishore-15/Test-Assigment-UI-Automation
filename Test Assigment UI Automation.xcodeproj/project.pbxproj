@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B320ED0226328043001A24DA /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED0126328043001A24DA /* MockServer.swift */; };
+		B320ED0A263290B1001A24DA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED09263290B1001A24DA /* ItemModel.swift */; };
+		B337B9392631CE1F006EC3E2 /* BLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */; };
+		B337B9552631D166006EC3E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9542631D166006EC3E2 /* Constants.swift */; };
 		E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */; };
 		E25E0B922623E57500CEE3CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B912623E57500CEE3CB /* SceneDelegate.swift */; };
-		E25E0B942623E57500CEE3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B932623E57500CEE3CB /* ViewController.swift */; };
+		E25E0B942623E57500CEE3CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B932623E57500CEE3CB /* FirstViewController.swift */; };
 		E25E0B972623E57500CEE3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B952623E57500CEE3CB /* Main.storyboard */; };
 		E25E0B992623E57600CEE3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B982623E57600CEE3CB /* Assets.xcassets */; };
 		E25E0B9C2623E57600CEE3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */; };
 		E25E0BA72623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0BA62623E57600CEE3CB /* Test_Assigment_UI_AutomationTests.swift */; };
 		E25E0BB22623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */; };
+		E25E0BC62623FB4800CEE3CB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0BC52623FB4800CEE3CB /* SecondViewController.swift */; };
+		E28ABCC826241922002647BD /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = E28ABCC726241922002647BD /* Reachability */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B320ED0126328043001A24DA /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
+		B320ED09263290B1001A24DA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLCollectionViewCell.swift; sourceTree = "<group>"; };
+		B337B9542631D166006EC3E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Assigment UI Automation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25E0B912623E57500CEE3CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E25E0B932623E57500CEE3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E25E0B932623E57500CEE3CB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E25E0B962623E57500CEE3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25E0B982623E57600CEE3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25E0B9B2623E57600CEE3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,7 @@
 		E25E0BAD2623E57600CEE3CB /* Test Assigment UI AutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Assigment UI AutomationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Assigment_UI_AutomationUITests.swift; sourceTree = "<group>"; };
 		E25E0BB32623E57600CEE3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25E0BC52623FB4800CEE3CB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28ABCC826241922002647BD /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B320ED002632801A001A24DA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B320ED0126328043001A24DA /* MockServer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B337B9372631CDF9006EC3E2 /* Custom UI Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */,
+			);
+			path = "Custom UI Classes";
+			sourceTree = "<group>";
+		};
+		B337B9452631CE72006EC3E2 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				B320ED09263290B1001A24DA /* ItemModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		E25E0B832623E57500CEE3CB = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +135,15 @@
 		E25E0B8E2623E57500CEE3CB /* Test Assigment UI Automation */ = {
 			isa = PBXGroup;
 			children = (
-				E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */,
-				E25E0B912623E57500CEE3CB /* SceneDelegate.swift */,
-				E25E0B932623E57500CEE3CB /* ViewController.swift */,
+				B320ED002632801A001A24DA /* Data */,
+				B337B9452631CE72006EC3E2 /* Data Model */,
+				B337B9372631CDF9006EC3E2 /* Custom UI Classes */,
+				E25E0BCA2623FDAF00CEE3CB /* App Launch */,
+				E25E0BD12623FDB900CEE3CB /* View Controllers */,
 				E25E0B952623E57500CEE3CB /* Main.storyboard */,
 				E25E0B982623E57600CEE3CB /* Assets.xcassets */,
-				E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */,
 				E25E0B9D2623E57600CEE3CB /* Info.plist */,
+				B337B9542631D166006EC3E2 /* Constants.swift */,
 			);
 			path = "Test Assigment UI Automation";
 			sourceTree = "<group>";
@@ -128,6 +166,25 @@
 			path = "Test Assigment UI AutomationUITests";
 			sourceTree = "<group>";
 		};
+		E25E0BCA2623FDAF00CEE3CB /* App Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */,
+				E25E0B912623E57500CEE3CB /* SceneDelegate.swift */,
+				E25E0B9A2623E57600CEE3CB /* LaunchScreen.storyboard */,
+			);
+			path = "App Launch";
+			sourceTree = "<group>";
+		};
+		E25E0BD12623FDB900CEE3CB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E25E0B932623E57500CEE3CB /* FirstViewController.swift */,
+				E25E0BC52623FB4800CEE3CB /* SecondViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +201,9 @@
 			dependencies = (
 			);
 			name = "Test Assigment UI Automation";
+			packageProductDependencies = (
+				E28ABCC726241922002647BD /* Reachability */,
+			);
 			productName = "Test Assigment UI Automation";
 			productReference = E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = E25E0B832623E57500CEE3CB;
+			packageReferences = (
+				E28ABCC626241921002647BD /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
 			productRefGroup = E25E0B8D2623E57500CEE3CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25E0B942623E57500CEE3CB /* ViewController.swift in Sources */,
+				E25E0BC62623FB4800CEE3CB /* SecondViewController.swift in Sources */,
+				E25E0B942623E57500CEE3CB /* FirstViewController.swift in Sources */,
+				B337B9392631CE1F006EC3E2 /* BLCollectionViewCell.swift in Sources */,
+				B320ED0A263290B1001A24DA /* ItemModel.swift in Sources */,
+				B320ED0226328043001A24DA /* MockServer.swift in Sources */,
+				B337B9552631D166006EC3E2 /* Constants.swift in Sources */,
 				E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */,
 				E25E0B922623E57500CEE3CB /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDG47BLXBA;
 				INFOPLIST_FILE = "Test Assigment UI Automation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDG47BLXBA;
 				INFOPLIST_FILE = "Test Assigment UI Automation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,6 +657,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E28ABCC626241921002647BD /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E28ABCC726241922002647BD /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E28ABCC626241921002647BD /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E25E0B842623E57500CEE3CB /* Project object */;
 }
