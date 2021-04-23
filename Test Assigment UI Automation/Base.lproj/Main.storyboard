@@ -37,6 +37,7 @@
                                     <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check your internet connection and try again" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMu-7X-bp7">
                                         <rect key="frame" x="0.0" y="0.0" width="342" height="20.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="text-no-connection"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -44,6 +45,7 @@
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkp-ZX-rZa">
                                         <rect key="frame" x="0.0" y="36.5" width="342" height="30"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="try-again"/>
                                         <state key="normal" title="Try again!"/>
                                         <connections>
                                             <action selector="tryLoadDataFromServer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Klz-vj-MAk"/>
@@ -51,6 +53,7 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <accessibility key="accessibilityConfiguration" identifier="zero-case-view"/>
                                 <constraints>
                                     <constraint firstItem="Pkp-ZX-rZa" firstAttribute="leading" secondItem="iL0-mP-uC0" secondAttribute="leading" id="20K-oN-VAi"/>
                                     <constraint firstAttribute="bottom" secondItem="Pkp-ZX-rZa" secondAttribute="bottom" id="7AR-1U-ele"/>
@@ -89,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-455" y="-556"/>
+            <point key="canvasLocation" x="-455.07246376811599" y="-556.47321428571422"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="pBr-V7-eQZ">

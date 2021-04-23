@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B320ED0226328043001A24DA /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED0126328043001A24DA /* MockServer.swift */; };
 		B320ED0A263290B1001A24DA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED09263290B1001A24DA /* ItemModel.swift */; };
+		B320ED162632DD17001A24DA /* ZeroCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED152632DD17001A24DA /* ZeroCaseTest.swift */; };
 		B337B9392631CE1F006EC3E2 /* BLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */; };
 		B337B9552631D166006EC3E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9542631D166006EC3E2 /* Constants.swift */; };
 		E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		B320ED0126328043001A24DA /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
 		B320ED09263290B1001A24DA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B320ED152632DD17001A24DA /* ZeroCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroCaseTest.swift; sourceTree = "<group>"; };
 		B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLCollectionViewCell.swift; sourceTree = "<group>"; };
 		B337B9542631D166006EC3E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E25E0B8C2623E57500CEE3CB /* Test Assigment UI Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Assigment UI Automation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,14 @@
 				B320ED0126328043001A24DA /* MockServer.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		B320ED142632DCF2001A24DA /* NoInternetConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B320ED152632DD17001A24DA /* ZeroCaseTest.swift */,
+			);
+			path = NoInternetConnectionTests;
 			sourceTree = "<group>";
 		};
 		B337B9372631CDF9006EC3E2 /* Custom UI Classes */ = {
@@ -160,6 +170,7 @@
 		E25E0BB02623E57600CEE3CB /* Test Assigment UI AutomationUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B320ED142632DCF2001A24DA /* NoInternetConnectionTests */,
 				E25E0BB12623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift */,
 				E25E0BB32623E57600CEE3CB /* Info.plist */,
 			);
@@ -345,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25E0BB22623E57600CEE3CB /* Test_Assigment_UI_AutomationUITests.swift in Sources */,
+				B320ED162632DD17001A24DA /* ZeroCaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
