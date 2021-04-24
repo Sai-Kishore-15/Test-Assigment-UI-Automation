@@ -23,6 +23,9 @@ enum SegueIdentifiers {
 
 enum AccessibilityIdentifiers {
     static let collectionView = "green-red-collection-view"
-    static let navBarFirstViewController = "navigation-bar-first-view-controller"
+    static let navBarFirstViewController = "navigation-bar"
 }
 
+enum defaultStaticTexts {
+    static let colorUndefined = "colorNameUndefined"
+}

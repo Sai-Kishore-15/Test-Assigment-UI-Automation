@@ -44,6 +44,8 @@ final class BLCollectionViewCell: UICollectionViewCell {
     func configure(index: Int, title: String, backgroundColor: UIColor){
         self.titleLabel.text = "\(title) Cell at index \(index)"
         self.backgroundColor = backgroundColor
+        self.accessibilityIdentifier = "\(title)_\(index)"
+        self.accessibilityLabel = self.titleLabel.text
     }
 }
 // MARK:- PRIVATE EXTENSIONS

@@ -33,14 +33,13 @@ class MockServer {
         let totalNumberOfItems = size as Int
         // Exit Condition
         if totalNumberOfItems <= 0 { return items }
-
         let redCellIndex = Int.random(in: 0..<totalNumberOfItems)
         for index in 0..<totalNumberOfItems {
             let item: Item
             if index == redCellIndex {
-                item = Item(backgroundColor: .red, title: "Red", index: index)
+                item = Item(backgroundColor: .red, index: index)
             } else {
-                item = Item(backgroundColor: .green, title: "Green", index: index)
+                item = Item(backgroundColor: .green, index: index)
             }
             items.append(item)
         }

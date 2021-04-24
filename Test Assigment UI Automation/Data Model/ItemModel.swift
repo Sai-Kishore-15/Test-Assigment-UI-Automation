@@ -10,6 +10,13 @@ import UIKit
 
 struct Item {
     let backgroundColor: UIColor
-    let title: String
     let index: Int
+    let title: String
+    init(backgroundColor: UIColor, index: Int, customTitle: String? = nil){
+        self.backgroundColor = backgroundColor
+        self.index = index
+        self.title = customTitle != nil ? customTitle! :
+            backgroundColor.name ?? defaultStaticTexts.colorUndefined
+    }
 }
+

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B317C8522633ED34008C3B48 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9542631D166006EC3E2 /* Constants.swift */; };
+		B317C858263430C5008C3B48 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317C857263430C5008C3B48 /* UIColorExtension.swift */; };
 		B320ED0226328043001A24DA /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED0126328043001A24DA /* MockServer.swift */; };
 		B320ED0A263290B1001A24DA /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED09263290B1001A24DA /* ItemModel.swift */; };
 		B320ED162632DD17001A24DA /* Zero_Case_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED152632DD17001A24DA /* Zero_Case_Test.swift */; };
 		B320ED2126331614001A24DA /* First_View_Controller_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320ED2026331614001A24DA /* First_View_Controller_Tests.swift */; };
-		B320ED282633252B001A24DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9542631D166006EC3E2 /* Constants.swift */; };
 		B337B9392631CE1F006EC3E2 /* BLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9382631CE1F006EC3E2 /* BLCollectionViewCell.swift */; };
 		B337B9552631D166006EC3E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337B9542631D166006EC3E2 /* Constants.swift */; };
 		E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0B8F2623E57500CEE3CB /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B317C857263430C5008C3B48 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		B320ED0126328043001A24DA /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
 		B320ED09263290B1001A24DA /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		B320ED152632DD17001A24DA /* Zero_Case_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero_Case_Test.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B317C856263430B7008C3B48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B317C857263430C5008C3B48 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B320ED002632801A001A24DA /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 		E25E0B8E2623E57500CEE3CB /* Test Assigment UI Automation */ = {
 			isa = PBXGroup;
 			children = (
+				B317C856263430B7008C3B48 /* Extensions */,
 				B320ED002632801A001A24DA /* Data */,
 				B337B9452631CE72006EC3E2 /* Data Model */,
 				B337B9372631CDF9006EC3E2 /* Custom UI Classes */,
@@ -338,6 +349,7 @@
 				B337B9392631CE1F006EC3E2 /* BLCollectionViewCell.swift in Sources */,
 				B320ED0A263290B1001A24DA /* ItemModel.swift in Sources */,
 				B320ED0226328043001A24DA /* MockServer.swift in Sources */,
+				B317C858263430C5008C3B48 /* UIColorExtension.swift in Sources */,
 				B337B9552631D166006EC3E2 /* Constants.swift in Sources */,
 				E25E0B902623E57500CEE3CB /* AppDelegate.swift in Sources */,
 				E25E0B922623E57500CEE3CB /* SceneDelegate.swift in Sources */,
@@ -358,7 +370,7 @@
 			files = (
 				B320ED162632DD17001A24DA /* Zero_Case_Test.swift in Sources */,
 				B320ED2126331614001A24DA /* First_View_Controller_Tests.swift in Sources */,
-				B320ED282633252B001A24DA /* Constants.swift in Sources */,
+				B317C8522633ED34008C3B48 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
