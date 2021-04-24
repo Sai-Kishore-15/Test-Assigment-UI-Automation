@@ -97,4 +97,20 @@ class First_View_Controller_Collection_View_Tests: XCTestCase {
         }
         XCTAssertEqual(1, redCellCount)
     }
+    
+    func test_doesPresentAlert_onCellTap() {
+        // MARK:- Properties
+        let app = XCUIApplication()
+        let collectionViewIdentifier = AccessibilityIdentifiers.collectionView
+        let collectionView = app.collectionViews[collectionViewIdentifier]
+        let alert = app.alerts.element
+        let yesButton = alert.buttons["Yes"]
+        let noButton = alert.buttons["No"]
+        //MARK:- when cell is tapped, alert with yes no button must display
+        collectionView.cells.element.firstMatch.tap()
+        XCTAssertTrue(alert.exists, "Alert wasn't presented")
+        XCTAssertTrue(yesButton.exists, "Yes button does not exist")
+        XCTAssertTrue(noButton.exists,  "No button does not exist")
+    }
 }
+

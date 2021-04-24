@@ -56,7 +56,7 @@ final class FirstViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // scroll UICollectionView to the top
-        collectionView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: false)
+        collectionView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: false)        
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
