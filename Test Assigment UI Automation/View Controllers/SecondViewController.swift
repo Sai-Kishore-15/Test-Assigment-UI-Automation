@@ -23,5 +23,7 @@ final class SecondViewController: UIViewController {
     func configure(title: String, backgroundColor: UIColor) {
         customTitle = title
         customBackgroundColor = backgroundColor
+        view.accessibilityLabel =
+            "\(backgroundColor.name ?? "default")-second-view-controller"
     }
 }

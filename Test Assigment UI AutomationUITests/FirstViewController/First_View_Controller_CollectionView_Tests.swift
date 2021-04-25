@@ -60,9 +60,13 @@ class First_View_Controller_Collection_View_Tests: XCTestCase {
                 currentCellIndex += 1
             }else {
                 collectionView.swipeUp()
-                previousLastCellLabel = lastCellLabel
-                lastCellLabel = collectionView.cells
-                    .allElementsBoundByIndex.last!.label
+                let lastCell = collectionView.cells
+                    .allElementsBoundByIndex.last
+                XCTAssert(lastCell!.exists)
+                if lastCell!.isHittable{
+                    previousLastCellLabel = lastCellLabel
+                    lastCellLabel = lastCell!.label
+                }
             }
         }
         XCTAssert(isRedCellPresent, "Could not find Red Cell")
@@ -91,8 +95,13 @@ class First_View_Controller_Collection_View_Tests: XCTestCase {
                 currentCellIndex += 1
             }else {
                 collectionView.swipeUp()
-                previousLastCellLabel = lastCellLabel
-                lastCellLabel = collectionView.cells.allElementsBoundByIndex.last!.label
+                let lastCell = collectionView.cells
+                    .allElementsBoundByIndex.last
+                XCTAssert(lastCell!.exists)
+                if lastCell!.isHittable{
+                    previousLastCellLabel = lastCellLabel
+                    lastCellLabel = lastCell!.label
+                }
             }
         }
         XCTAssertEqual(1, redCellCount)

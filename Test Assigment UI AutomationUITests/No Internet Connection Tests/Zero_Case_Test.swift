@@ -19,16 +19,16 @@ class Zero_Case_Test: XCTestCase {
     }
     
     func test_isZeroCaseVisibleOnLaunch() {
-        // Succeeds when Internet Connectivity is Off
-        // Fails when Internet Connectivity is On
-        
+        // Validates Zerocase and its elements when wifi is off 
         let app = XCUIApplication()
         app.launch()
-        
-        let zeroCase = app.otherElements["zero-case-view"]
-        let tryAgainbutton = app.otherElements["zero-case-view"].buttons["try-again"]
-        let noConnectionLabel = app.otherElements["zero-case-view"].staticTexts["text-no-connection"]
-        
+        let zeroCaseIdentifier = AccessibilityIdentifiers.zeroCaseview
+        let tryAgainIdentifier = AccessibilityIdentifiers.tryAgainButton
+        let textNoConnectionIdentifier   = AccessibilityIdentifiers.textNoConnection
+        let zeroCase = app.otherElements[zeroCaseIdentifier]
+        let tryAgainbutton = app.otherElements[zeroCaseIdentifier].buttons[tryAgainIdentifier]
+        let noConnectionLabel = app.otherElements[zeroCaseIdentifier]
+            .staticTexts[textNoConnectionIdentifier]
         XCTAssertTrue(zeroCase.exists, "Zero Case does not exist")
         XCTAssertTrue(tryAgainbutton.exists)
         XCTAssertTrue(noConnectionLabel.exists)

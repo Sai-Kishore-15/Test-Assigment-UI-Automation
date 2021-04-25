@@ -38,7 +38,7 @@ class MockServer {
             let item: Item
             if index == redCellIndex {
                 item = Item(backgroundColor: .red, index: index)
-            } else {
+            }else {
                 item = Item(backgroundColor: .green, index: index)
             }
             items.append(item)

@@ -11,12 +11,10 @@ class First_View_Controller_Tests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = false
-
-        XCUIApplication().launch()
     }
 
     override func tearDownWithError() throws {
-        
+     // DeInitialise propertiese
     }
 
     func test_validateTitle(){

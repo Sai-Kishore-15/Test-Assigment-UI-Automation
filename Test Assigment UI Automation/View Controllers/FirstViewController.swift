@@ -56,13 +56,12 @@ final class FirstViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // scroll UICollectionView to the top
-        collectionView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: false)        
+        collectionView.scrollRectToVisible(CGRect(x: 0, y: 0, width: 1, height: 1), animated: false)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueIdentifiers.firstToSecondViewController {
             let nextViewController = segue.destination as! SecondViewController
-
             let selectedCellIndexPath = sender as! IndexPath
             let item = items[selectedCellIndexPath.item]
             nextViewController.configure(title: item.title, backgroundColor: item.backgroundColor)
@@ -76,6 +75,7 @@ extension FirstViewController: UICollectionViewDataSource {
         return items.count
     }
 
+    // Create cell and configure it
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(
             withReuseIdentifier: BLCollectionViewCell.reuseIdentifierDefault,
@@ -92,12 +92,13 @@ extension FirstViewController: UICollectionViewDataSource {
 extension FirstViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let alertController = UIAlertController(title: nil,
-                                                message: AlertMessages.nextScreen,
+                                                message: AlertMessages.nextScreen + "\(indexPath.row)",
                                                 preferredStyle: .alert)
         let noAction = UIAlertAction(title: Titles.no, style: .cancel, handler: nil)
         alertController.addAction(noAction)
         let yesAction = UIAlertAction(title: Titles.yes, style: .default, handler: { _ in
-            self.performSegue(withIdentifier: SegueIdentifiers.firstToSecondViewController, sender: indexPath)
+            self.performSegue(withIdentifier: SegueIdentifiers.firstToSecondViewController,
+                              sender: indexPath)
         })
         alertController.addAction(yesAction)
         present(alertController, animated: true, completion: nil)
